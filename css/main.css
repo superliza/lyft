@@ -1,3 +1,52 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+   margin: 0;
+ }
+
+body {
+  /*border: 5px solid green;*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: #2B1E66;
+  border: 1px solid blue;
+  overflow: hidden;
+  height: 100px;
+}
+
+header > div.float-right {
+  border: 1px solid purple;
+  float: right;
+  padding-top: 45px;
+  padding-right: 15%;
+}
+
+.menu-item {
+  border: 1px solid pink;
+  display: inline-block;
+  font-size: 130%;
+  /*font-weight: 700; -- pone la letra en negrita */
+  text-decoration: none; /* quita el subrayado al contenido de las etiquetas <a> */
+  color: white;
+  width: 90px;
+}
+
+.button {
+  border-radius: 5px;
+  text-align: center;
+}
+
+header div.float-left {
+  border: 1px solid red;
+  float: left;
+}
+
+header div.float-left > img.logo-white {
+  border: 1px solid;
+  width: 70px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
